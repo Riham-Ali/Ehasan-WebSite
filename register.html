@@ -1,0 +1,193 @@
+<!DOCTYBE html>
+<html dir="rtl">
+<head>
+
+<title>
+
+ التسجيل
+</title>
+<link rel ="stylesheet" type="text/css" href="../css/cstyle.css">
+  <script type="text/javascript" src="../javascript/javascript.js"></script>
+    
+
+</head>
+
+<body>
+
+    
+    
+        <header>
+    <div class="logo">
+    <img src="../images/headerandfooter/logo.png" width="100" >
+    
+    </div>
+    
+<nav>
+    <ul>
+        <li><a href="../home.html">الرئيسية</a></li>
+        <li><a href="care.of.orphan.html">تطوع معنا</a></li>
+        <li><a href="company.html">الرعاه</a></li>
+		<li onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="log">تسجيل الدخول</li>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post" id="mainForm">
+    <div class="imgcontainer">
+		<fieldset>
+      
+      
+   
+
+    
+      <label for="uname">الإيميل</label><br>
+      <input type="email"  name="uname" required><br>
+
+      <label for="psw">الرقم السري</label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required><br>
+        <button type="submit" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">إرسـال </button>
+       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">إلغـاء </button><br>
+      <input type="checkbox" class="required"  ><label>تذكرني</label><br>
+				<label>Forgot <a href="repassword.html">password?</label>
+  
+
+    </fieldset>
+  </form>
+</div>
+</div>
+        <li><a href="register.html">التسجيل</a></li>
+		<li><a href="contact.html">تواصل معنا</a></li>
+        <a href="AboutUs.html"><img  class="info" src="../images/headerandfooter/info_icon_png_704275.png" width="40" height="40"></a>
+        
+        
+    </ul>
+</nav>
+</header>
+<div class="body">
+
+ 
+        <h1> إنشاء حِسـاب جديد..| </h1>
+        <form method="post" action="" id="mainForm">
+			 <fieldset>
+
+            <p>
+                <label>
+                   الاسم الاول
+                </label><br>
+                <input type="text" name="firstname" placeholder="رجاء أدخل الاسم الاول">
+            </p>
+            <p>
+                <label>
+                    <span class="p-4">اسم الاب</span>
+                </label><br>
+                <input type="text" name="fathername" placeholder="رجاء ادخل اسم الاب">
+            </p>
+            <p>
+                <label>
+                    <span class="p-4">الاسم الاخير</span>
+                </label><br>
+                <input type="text" name="lastname" placeholder="رجاء ادخل الاسم الاخير">
+            </p>
+            <p>
+                <label>
+                    <span class="p-4">رقم الهاتف</span>
+                </label><br>
+                <input type="text" name="mobile" placeholder="رجاء قم بادخال رقم الهاتف">
+            </p>
+            <p>
+                <label>
+                    <span class="p-4">الايميل</span>
+                </label><br>
+                <input type="email" name="email" placeholder="رجاء قم بادخال الايميل">
+            </p>
+            <p>
+                <label>
+                    <span class="p-4">الجنس</span>
+                </label><br>
+                <select name="gender" id="">
+                    <option value="male">ذكر</option>
+                    <option value="female">أنثى</option>
+                </select>
+            </p>
+            <p>
+                <label>
+                    <span class="p-4">العمر</span>
+                </label><br>
+                <input type="number" name="address" placeholder="رجاء قم بإدخال العمر">
+            </p>
+
+            <p>
+                <label>
+                    <span class="p-4">العنوان</span>
+                </label><br>
+                <input type="text" name="address" placeholder="رجاء قم بإدحال العنوان">
+            </p>
+
+            <p>
+
+                <input type="radio" name="type" value="yes"><label>هل أنت ضمن فريق تطوعي؟</label><br><br>
+                <input type="radio" name="type" value="no"><label>لست ضمن فريق تطوعي(فرد)</label><br>
+            </p>
+            <p>
+                <label>
+                    هل ترغب بالاشتراك معنا, والحصول على أحدث الاخبار عبر الايميل
+                </label><br><br>
+				
+                <input type="radio" name="type" value="yes"><label>  نعم  </label>
+                <input type="radio" name="type" value="no"><label>  لا   
+				</label>
+            </p>
+            <p>
+               
+                <input type="radio" name="type" value="no">
+                <label>الموافقة على شروط الانضام لمجتمع احسان التطوعي</label>
+
+            </p>
+			<label><p> *في حال ترغب بالإنضمام ك راعي إلى إحسان تواصل مع الإدارة لتُمنح عضوية خاصة.</p></label><br>
+            <button type="submit">إرسال</button>
+			</fieldset>
+        </form>
+    </div>
+    <script>
+        function show(){
+            confirm('هذه هي الشروط الخاصة بنا, نرجو الموافقه عليها');
+        }
+    </script>
+	   
+      <div class="top">
+    
+  <a href="#top"><img src="../images/headerandfooter/top2.png" width="70" height="70" ></a> 
+    </div>
+    
+
+    
+    <div class="hands"><img src="../images/headerandfooter/hands.png"></div>
+<footer>
+  
+    
+
+
+
+    <div class="follow">
+    <p>تابعنا :</p>
+    <img src="../images/headerandfooter/insta2.png" width="50">
+    <img src="../images/headerandfooter/snap1.png" width="50">
+    <img src="../images/headerandfooter/whatsapp1.png" width="50">
+    </div>
+    
+    <div class="app">
+    <p>تطبيق إحسان </p>
+    <img src="../images/headerandfooter/applestore1.png" width="150">
+    <img src="../images/headerandfooter/googleplay.png" width="150">
+    </div>
+    
+    
+     <div class="space"> </div>
+    
+    
+    <div class="topfooter"><p class="copyright">    جميع الحقوق محفوظة &copy; 2019 لصالح فريق عمل إحسان.</p></div>
+
+</footer>
+
+</body>
+</div>
+</html>
